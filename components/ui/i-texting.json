@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_ui_i_textings",
+  "info": {
+    "name": "iTexting",
+    "icon": "american-sign-language-interpreting"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "texto": {
+      "type": "string"
+    },
+    "contenido": {
+      "type": "richtext"
+    },
+    "boton": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ui.boton"
+    }
+  }
+}

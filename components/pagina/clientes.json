@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_pagina_clientes",
+  "info": {
+    "name": "clientes",
+    "icon": "align-center"
+  },
+  "options": {},
+  "attributes": {
+    "titulo": {
+      "type": "string"
+    },
+    "marcas": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}

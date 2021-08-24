@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_pagina_banners",
+  "info": {
+    "name": "Banner",
+    "icon": "ad",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "titulo": {
+      "type": "string"
+    },
+    "subtitulo": {
+      "type": "string"
+    },
+    "texto": {
+      "type": "richtext"
+    },
+    "boton": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ui.boton"
+    },
+    "imagen": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}

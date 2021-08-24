@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_ui_botons",
+  "info": {
+    "name": "boton",
+    "icon": "address-book"
+  },
+  "options": {},
+  "attributes": {
+    "texto": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}

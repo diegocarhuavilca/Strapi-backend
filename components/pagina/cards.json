@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_pagina_cards",
+  "info": {
+    "name": "cards",
+    "icon": "address-card"
+  },
+  "options": {},
+  "attributes": {
+    "titulo": {
+      "type": "string"
+    },
+    "subtitulo": {
+      "type": "string"
+    },
+    "card": {
+      "type": "component",
+      "repeatable": true,
+      "component": "ui.card",
+      "min": 4,
+      "max": 4
+    }
+  }
+}

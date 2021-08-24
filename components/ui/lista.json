@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_ui_listas",
+  "info": {
+    "name": "lista",
+    "icon": "align-right"
+  },
+  "options": {},
+  "attributes": {
+    "titulo": {
+      "type": "string"
+    },
+    "texto": {
+      "type": "component",
+      "repeatable": true,
+      "component": "ui.texto"
+    }
+  }
+}

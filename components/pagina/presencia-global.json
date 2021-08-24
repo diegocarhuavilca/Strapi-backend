@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_pagina_presencia_globals",
+  "info": {
+    "name": "presenciaGlobal",
+    "icon": "align-justify",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "oficina": {
+      "type": "component",
+      "repeatable": true,
+      "component": "ui.oficina"
+    },
+    "titulo": {
+      "type": "string"
+    }
+  }
+}

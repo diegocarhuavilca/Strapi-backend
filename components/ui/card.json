@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_ui_cards",
+  "info": {
+    "name": "card",
+    "icon": "adjust"
+  },
+  "options": {},
+  "attributes": {
+    "imagen": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "titulo": {
+      "type": "string"
+    },
+    "contenido": {
+      "type": "string"
+    }
+  }
+}

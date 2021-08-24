@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_ui_qrs",
+  "info": {
+    "name": "QR",
+    "icon": "anchor"
+  },
+  "options": {},
+  "attributes": {
+    "imagen": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "titulo": {
+      "type": "string"
+    },
+    "contenido": {
+      "type": "richtext"
+    },
+    "boton": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ui.boton"
+    }
+  }
+}

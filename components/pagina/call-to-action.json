@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_pagina_call_to_actions",
+  "info": {
+    "name": "callToAction",
+    "icon": "air-freshener"
+  },
+  "options": {},
+  "attributes": {
+    "tituloSuperior": {
+      "type": "string"
+    },
+    "tituloCentral1": {
+      "type": "string"
+    },
+    "tituloCentral2": {
+      "type": "string"
+    },
+    "boton": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ui.boton"
+    },
+    "tituloInferior": {
+      "type": "string"
+    }
+  }
+}

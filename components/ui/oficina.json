@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_ui_oficinas",
+  "info": {
+    "name": "oficina",
+    "icon": "align-left",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "ciudad": {
+      "type": "string"
+    },
+    "pais": {
+      "type": "string"
+    },
+    "imagen": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "titulo": {
+      "type": "string"
+    }
+  }
+}

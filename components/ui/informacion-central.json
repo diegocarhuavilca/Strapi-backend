@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_ui_informacion_centrals",
+  "info": {
+    "name": "Informacion-central",
+    "icon": "angle-double-down"
+  },
+  "options": {},
+  "attributes": {
+    "titulo": {
+      "type": "string"
+    },
+    "subtitulo": {
+      "type": "string"
+    },
+    "imagen": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}

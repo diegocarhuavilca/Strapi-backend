@@ -1,0 +1,74 @@
+{
+  "kind": "collectionType",
+  "collectionName": "paginas",
+  "info": {
+    "name": "Paginas",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Banner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "pagina.banner"
+    },
+    "cards": {
+      "type": "component",
+      "repeatable": false,
+      "component": "pagina.cards"
+    },
+    "callToAction": {
+      "type": "component",
+      "repeatable": false,
+      "component": "pagina.call-to-action"
+    },
+    "clientes": {
+      "type": "component",
+      "repeatable": false,
+      "component": "pagina.clientes"
+    },
+    "presenciaGlobal": {
+      "type": "component",
+      "repeatable": false,
+      "component": "pagina.presencia-global"
+    },
+    "lista": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ui.lista"
+    },
+    "Informacion": {
+      "type": "component",
+      "repeatable": true,
+      "component": "ui.informacion"
+    },
+    "iTexting": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ui.i-texting"
+    },
+    "QR": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ui.qr"
+    },
+    "titulo": {
+      "type": "string"
+    },
+    "slider_informacion": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ui.slider-informacion"
+    },
+    "InformacionCentral": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ui.informacion-central"
+    }
+  }
+}
