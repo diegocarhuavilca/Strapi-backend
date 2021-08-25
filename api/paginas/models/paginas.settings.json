@@ -69,6 +69,12 @@
       "type": "component",
       "repeatable": false,
       "component": "ui.informacion-central"
+    },
+    "direccion": {
+      "type": "string",
+      "required": true,
+      "unique": true,
+      "default": "Ingresar la dirección sin espacio en blanco ejm: \"/direccion\""
     }
   }
 }
