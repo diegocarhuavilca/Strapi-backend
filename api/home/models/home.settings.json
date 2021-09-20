@@ -1,0 +1,41 @@
+{
+  "kind": "singleType",
+  "collectionName": "homes",
+  "info": {
+    "name": "Home",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Banner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "pagina.banner"
+    },
+    "NuestrosServicios": {
+      "type": "component",
+      "repeatable": false,
+      "component": "pagina.cards"
+    },
+    "Call2Action": {
+      "type": "component",
+      "repeatable": false,
+      "component": "pagina.call-to-action"
+    },
+    "Clientes": {
+      "type": "component",
+      "repeatable": false,
+      "component": "pagina.clientes"
+    },
+    "PresenciaGlobal": {
+      "type": "component",
+      "repeatable": false,
+      "component": "pagina.presencia-global"
+    }
+  }
+}

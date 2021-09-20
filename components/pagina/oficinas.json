@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_pagina_oficinas",
+  "info": {
+    "name": "Oficinas",
+    "icon": "angle-double-left"
+  },
+  "options": {},
+  "attributes": {
+    "infooficina": {
+      "type": "component",
+      "repeatable": true,
+      "component": "ui.infor-oficina"
+    }
+  }
+}

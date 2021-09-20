@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_ui_infor_oficinas",
+  "info": {
+    "name": "infor-oficina",
+    "icon": "angle-down"
+  },
+  "options": {},
+  "attributes": {
+    "ciudad": {
+      "type": "string"
+    },
+    "pais": {
+      "type": "string"
+    },
+    "telefono": {
+      "type": "string"
+    },
+    "correo": {
+      "type": "string"
+    }
+  }
+}
