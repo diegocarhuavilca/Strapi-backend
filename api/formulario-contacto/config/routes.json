@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/formulario-contactos",
+      "handler": "formulario-contacto.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/formulario-contactos/count",
+      "handler": "formulario-contacto.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/formulario-contactos/:id",
+      "handler": "formulario-contacto.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/formulario-contactos",
+      "handler": "formulario-contacto.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/formulario-contactos/:id",
+      "handler": "formulario-contacto.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/formulario-contactos/:id",
+      "handler": "formulario-contacto.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
