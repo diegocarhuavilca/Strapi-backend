@@ -2,12 +2,13 @@
   "collectionName": "components_ui_textos",
   "info": {
     "name": "texto",
-    "icon": "allergies"
+    "icon": "allergies",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "contenido": {
-      "type": "string"
+      "type": "text"
     }
   }
 }

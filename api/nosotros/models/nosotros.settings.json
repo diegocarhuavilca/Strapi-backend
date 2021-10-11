@@ -1,0 +1,36 @@
+{
+  "kind": "singleType",
+  "collectionName": "nosotros",
+  "info": {
+    "name": "Nosotros",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Banner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "pagina.banner"
+    },
+    "InformacionIntermax": {
+      "type": "component",
+      "repeatable": false,
+      "component": "pagina.informacion-intermax"
+    },
+    "Lista": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ui.lista"
+    },
+    "Card": {
+      "type": "component",
+      "repeatable": false,
+      "component": "pagina.cards"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_pagina_informacion_intermaxes",
+  "info": {
+    "name": "Informacion Intermax",
+    "icon": "angle-double-up"
+  },
+  "options": {},
+  "attributes": {
+    "imagen": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "superior": {
+      "type": "richtext"
+    },
+    "inferior": {
+      "type": "richtext"
+    }
+  }
+}
